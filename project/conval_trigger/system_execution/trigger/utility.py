@@ -95,8 +95,6 @@ def execute_local_command(command):
     pass
 
 
-
-
 def execute_remote_command(command):
     """
 
@@ -121,4 +119,21 @@ def send_files(destination_path, ip_adress="192.168.43.4"):
     """
     pass
 
-
+def device(device_details):
+    """
+    :param device_details: RAM - DRAM, SRAM, ROM - SSD, HDD
+    :return:
+    """
+    
+def customer(coustmer_requriments):
+    """
+    :param coustmer_requriments: performance, storage
+    :return:
+    """
+    
+def stop_on_fails(False):
+    """
+    :param coustmer_requriments:
+    default : False
+    :return: if test fails due to any issues reamining test cases should run
+    """
